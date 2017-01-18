@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_provider_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jitu.hellohelpsp.ProviderRegister">
+
+    <Button
+        android:id="@+id/button_Choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <!-- <EditText
+         android:id="@+id/editText_Name"
+         android:hint="Enter a ServiceName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />-->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_Provider_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter service" />
+    <!-- <EditText
+         android:id="@+id/editText_Provider_City"
+         android:hint="Enter a CityName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />-->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_Provider_City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city" />
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Name" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Password" />
+
+    <EditText
+        android:id="@+id/editText_Gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Gmail" />
+
+    <EditText
+        android:id="@+id/editText_Mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a MobileNo" />
+
+    <EditText
+        android:id="@+id/editText_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address" />
+
+    <EditText
+        android:id="@+id/editText_UserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Your Info" />
+
+    <Button
+        android:id="@+id/button_Upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload details" />
+</LinearLayout>
